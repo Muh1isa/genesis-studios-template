@@ -1,4 +1,11 @@
 .service {
+    height: 240px;
+    &__title {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
+        margin: 0 0 30px 0;
+    }
     &__wrapper {
         display: flex;
         align-items: center;
@@ -8,5 +15,10 @@
             align-items: center;
             gap: 20px;
         }
+    }
+    &__text {
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
+        text-transform: capitalize;
     }
 }

@@ -2,6 +2,24 @@
     &__top, &__bottom {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
+        height: 400px;
+    }
+    &__title {
+        width: 380px;
+    }
+    &__text {
+        width: 320px;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 10px 0 20px 0;
+    }
+    &__top-btn {
+        color: #fff;
+        background-color: #0026FF;
+    }
+    &__bottom-btn {
+        color: #fff;
+        background-color: #7502A3;
     }
 }
