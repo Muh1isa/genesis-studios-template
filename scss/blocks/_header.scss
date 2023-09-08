@@ -1,0 +1,12 @@
+.header {
+    padding: 30px 0;
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-list {
+            display: flex;
+            gap: 40px;
+        }
+    }
+}
